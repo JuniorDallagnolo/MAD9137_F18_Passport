@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		79D7476621BDD86D00EB4277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7476521BDD86D00EB4277 /* AppDelegate.swift */; };
-		79D7476821BDD86D00EB4277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7476721BDD86D00EB4277 /* ViewController.swift */; };
 		79D7476B21BDD86D00EB4277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D7476921BDD86D00EB4277 /* Main.storyboard */; };
 		79D7476D21BDD86D00EB4277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D7476C21BDD86D00EB4277 /* Assets.xcassets */; };
 		79D7477021BDD86D00EB4277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D7476E21BDD86D00EB4277 /* LaunchScreen.storyboard */; };
+		79D7477821BDD96900EB4277 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7477721BDD96900EB4277 /* SplashViewController.swift */; };
+		79D7477C21BDDB2400EB4277 /* PassportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7477B21BDDB2400EB4277 /* PassportTableViewController.swift */; };
+		79D7477E21BDDFF500EB4277 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7477D21BDDFF500EB4277 /* AddViewController.swift */; };
+		79D7478021BDE04800EB4277 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7477F21BDE04800EB4277 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79D7476221BDD86D00EB4277 /* MAD9137_F18_Passport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD9137_F18_Passport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D7476521BDD86D00EB4277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79D7476721BDD86D00EB4277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79D7476A21BDD86D00EB4277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79D7476C21BDD86D00EB4277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79D7476F21BDD86D00EB4277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79D7477121BDD86D00EB4277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D7477721BDD96900EB4277 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		79D7477B21BDDB2400EB4277 /* PassportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportTableViewController.swift; sourceTree = "<group>"; };
+		79D7477D21BDDFF500EB4277 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		79D7477F21BDE04800EB4277 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				79D7476521BDD86D00EB4277 /* AppDelegate.swift */,
-				79D7476721BDD86D00EB4277 /* ViewController.swift */,
 				79D7476921BDD86D00EB4277 /* Main.storyboard */,
 				79D7476C21BDD86D00EB4277 /* Assets.xcassets */,
 				79D7476E21BDD86D00EB4277 /* LaunchScreen.storyboard */,
 				79D7477121BDD86D00EB4277 /* Info.plist */,
+				79D7477721BDD96900EB4277 /* SplashViewController.swift */,
+				79D7477B21BDDB2400EB4277 /* PassportTableViewController.swift */,
+				79D7477D21BDDFF500EB4277 /* AddViewController.swift */,
+				79D7477F21BDE04800EB4277 /* InfoViewController.swift */,
 			);
 			path = MAD9137_F18_Passport;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D7476821BDD86D00EB4277 /* ViewController.swift in Sources */,
+				79D7477C21BDDB2400EB4277 /* PassportTableViewController.swift in Sources */,
 				79D7476621BDD86D00EB4277 /* AppDelegate.swift in Sources */,
+				79D7477E21BDDFF500EB4277 /* AddViewController.swift in Sources */,
+				79D7477821BDD96900EB4277 /* SplashViewController.swift in Sources */,
+				79D7478021BDE04800EB4277 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
