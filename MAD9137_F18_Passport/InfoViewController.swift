@@ -99,7 +99,7 @@ class InfoViewController: UIViewController {
                 if let data = self.jsonObj{
                     self.locTitle.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.bold)
                     self.locTitle.text = "Details for \(data["title"]!)"
-                    self.desc.text = "Title: \(data["title"]!) \n\n Location Id: \(data["id"]!) \n\n Description: \(data["description"]!) \n\n Latitude: \(data["latitude"]!) \n\n Longitude: \(data["longitude"]!)"
+                    self.desc.text = "Title: \(data["title"]!) \n\n Location Id: \(data["id"]!) \n\n Description: \(data["description"]!) \n\n Latitude: \(data["latitude"]!) \n\n Longitude: \(data["longitude"]!)  \n\n Arrival Date: \(data["arrival"]!)  \n\n Departure Date: \(data["departure"]!)"
                 }
             }
             
